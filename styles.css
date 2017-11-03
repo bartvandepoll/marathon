@@ -1,0 +1,269 @@
+body {
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+
+}
+
+.content {
+    width: 900px;
+    height: 150px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    background: url("image/banner1.jpg");
+}
+
+h1 {
+    font-family: sherif;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    color: #567AC7;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header > nav > ul {
+    border-top: double 3px #8e8e8e;
+    text-align: center;
+}
+
+header > nav > ul > li {
+    margin-left: 20px;
+    float: left;
+    padding: 0 30px;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+
+header > nav > ul > li > a {
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(86, 122, 199);
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.70);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+    margin-left: 25px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #fff;
+    background: rgb(86, 122, 199);
+}
+
+main {
+    margin-top: 15px;
+    width: 55%;
+    height: 600px;
+    background-color: #bcffb5;
+    display: inline-block;
+    float: left;
+    border-top: 2px solid black;
+
+}
+
+h3 {
+    text-align: center;
+    color: #567AC7;
+}
+
+main > article {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+aside > h2 {
+    text-align: center;
+    color: #567AC7;
+}
+
+aside {
+    margin-top: 15px;
+    width: 44.76%;
+    height: 600px;
+    background-color: #bcffb5;
+    display: inline-block;
+    float: right;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #9cff91;
+    width: 100%;
+    height: 127px;
+    clear: both;
+    border-top: 2px solid black;
+}
+
+video {
+    margin-left: 16%;
+    width: 70%;
+    height: 200px;
+}
+
+aside > nav > ul {
+    text-align: center;
+
+}
+
+aside > nav > ul > li {
+    padding: 0 15px;
+    list-style-type: none;
+    margin-left: 0;
+    border-bottom: 2px solid black;
+    margin-right: 30px;
+}
+
+aside > a > img {
+    margin-left: 16%;
+    margin-top: 10%;
+    width: 70%;
+
+}
+
+aside > nav > ul > li > a {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(86, 122, 199);
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.70);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+}
+
+footer > h2 {
+    color: #567AC7;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.list1 {
+    display: inline-block;
+    margin-left: 125px;
+    margin-top: 10px;
+}
+
+.list2 {
+    display: inline-block;
+    margin-left: 125px;
+
+}
+
+.list3 {
+    display: inline-block;
+    margin-left: 125px;
+}
+
+.list1 > ul > li {
+    color: black;
+    display: list-item;
+}
+
+.list2 > ul > li {
+    color: black;
+    display: list-item;
+}
+
+.list3 > ul > li {
+    color: black;
+    display: list-item;
+}
+
+.flexbox {
+    background-color: #bcffb5;
+
+}
+
+h2 {
+    text-align: center;
+    color: #567AC7;
+}
+
+.afbeelding1 > img {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+}
+
+.imagegallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+.form {
+    height: 625px;
+
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.h3 {
+    color: black;
+    text-align: left;
+}
+
+.imagegallery > div {
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+
+.imagegallery > div > img {
+    display: block;
+    transition: .1s transform;
+    transform: translateZ(0);
+}
+
+.imagegallery > div:hover {
+    z-index: 1;
+}
+
+.imagegallery > div:hover > img {
+    transform: scale(1.7, 1.7);
+    transition: .3s transform;
+}
+
+table, td, th, caption {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

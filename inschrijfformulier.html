@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="x-iso-8859-11">
+    <meta name="description" content="Marathon Amsterdam">
+    <meta name="author" content="Bart van de Poll">
+    <title>Marathon van Amsterdam</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <header>
+            <h1>Amsterdam Marathon</h1>
+            <nav>
+                <ul>
+                    <li><a href="lab1.html">Home</a></li>
+                    <li><a href="imagegallery.html">gallery</a></li>
+                    <li><a href="inschrijfformulier.html">inschrijven</a></li>
+                    <li><a href="recordmarathon.html">Record's</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main class="form">
+        <h2>Inschrijven</h2>
+        <form class="myform">
+            <fieldset>
+                <legend>Name & Email</legend>
+                <!-- personal info -->
+                <label for="firstname">First Name:</label>
+                <input id="firstname" name="firstname" type="text"/>
+
+                <label for="lastname">Last Name:</label>
+                <input id="lastname" name="lastname" type="text"/>
+
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email"/>
+            </fieldset>
+            <fieldset>
+                <legend>login info</legend>
+                <!-- login info -->
+                <label for="username">Username:</label>
+                <input id="username" name="username" type="text"/>
+
+                <label for="password">Password:</label>
+                <input id="password" name="password" type="password"/>
+
+                <label for="passwordconfirm">Confirm Password:</label>
+                <input id="passwordconfirm" name="passwordconfirm" type="password"/>
+            </fieldset>
+            <!-- address -->
+            <fieldset>
+                <legend>Personal info</legend>
+                <label for="address1">Country:</label>
+                <input id="address1" name="address1" type="text"/>
+
+                <label for="address2">Adres:</label>
+                <input id="address2" name="address2" type="text"/>
+
+                <br/>
+
+                <label for="city">city:</label>
+                <input id="city" name="city" type="text"/>
+
+
+                <label for="zip">Zip code:</label>
+                <input id="zip" name="zip" type="text"/>
+                <br/>
+
+                <label for="distance">distance:</label>
+                <select name="distance" id="distance">
+                    <option value="42,2">full marathon</option>
+                    <option value="21,1KM">half marathon</option>
+                    <option value="10KM">10 Kilometers</option>
+                    <option value="5KM">5 Kilometers</option>
+                    <option value="KR">Kids run</option>
+                </select>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Reason</legend>
+
+                <label for="message">Reason why you want to run the Amsterdam marathon:</label>
+                <textarea id="message" name="message" rows="6" cols="50"></textarea>
+
+
+            </fieldset>
+            <!-- terms -->
+            <fieldset>
+                <legend>Terms and conditions</legend>
+                <input type="checkbox" name="terms" id="terms"/>
+                <label for="terms">I accept the terms and conditions</label>
+                <br/>
+                <br/>
+                <input type="submit" name="submit" id="submit" value="Submit form">
+
+            </fieldset>
+
+        </form>
+
+    </main>
+
+
+    <aside class="form">
+        <h2>Aftermovie</h2>
+        <nav>
+            <ul>
+                <li><a href="video/Official%20aftermovie%20TCS%20Amsterdam%20Marathon%202016.mp4">Aftermovie 16</a></li>
+                <li><a href="video/TCS%20Amsterdam%20Marathon%202015%20aftermovie.mp4">Aftermovie 15</a></li>
+                <li><a href="video/TCS%20Amsterdam%20Marathon%202014%20summary.mp4">Aftermovie 14</a></li>
+            </ul>
+        </nav>
+        <video controls>
+            <source src="video/Official%20aftermovie%20TCS%20Amsterdam%20Marathon%202016.mp4" type="video/mp4">
+        </video>
+
+
+        <a href=https://www.abnamro.com/nl/index.html target="_blank">
+            <img src="image/abn.jpg" alt="abn-amro">
+        </a>
+    </aside>
+    <footer class="flexbox">
+        <h2>Contact gegevens</h2>
+        <div class="list1">
+            <ul>
+                <li>Bezoekadres</li>
+                <li>de dam 20</li>
+                <li>1012 JL Amsterdam</li>
+            </ul>
+        </div>
+        <div class="list2">
+            <ul>
+                <li>Bel ons</li>
+                <li>020-12345678</li>
+                <li>06-12345678</li>
+            </ul>
+        </div>
+        <div class="list3">
+            <ul>
+                <li>Contact</li>
+                <li>amsterdam@hotmail.com</li>
+                <li>facebook.com/amsterdam</li>
+
+            </ul>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
